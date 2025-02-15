@@ -1,5 +1,11 @@
 {
   "label": "Settings",
+  "logo": {
+    "alt": "Tina",
+    "src": "/img/tina-icon.svg"
+  },
+  "title": "Tinasaurus",
+  "url": "https://tinasaurus.chen.so/",
   "navbar": [
     {
       "label": "Docs",
@@ -32,11 +38,6 @@
       "position": "right"
     }
   ],
-  "logo": {
-    "alt": "Tina",
-    "src": "/img/tina-icon.svg"
-  },
-  "title": "Tinasaurus",
   "footer": {
     "style": "dark",
     "links": [
@@ -86,6 +87,5 @@
       }
     ],
     "copyright": "My Project, Inc. Built with Docusaurus."
-  },
-  "url": "https://tinasaurus.vercel.app/"
+  }
 }
