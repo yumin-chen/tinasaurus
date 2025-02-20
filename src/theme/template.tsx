@@ -1,6 +1,24 @@
 import React from "react";
 import { slugify } from "../../util";
 
+const AccordionTemplate = {
+  name: "Accordion",
+  fields: [
+    {
+      name: "summary",
+      label: "Summary",
+      type: "string",
+      isTitle: true,
+      required: true,
+    },
+    {
+      name: "children",
+      label: "Accordion",
+      type: "rich-text",
+    },
+  ],
+};
+
 const AdmonitionTemplate = {
   name: "Admonition",
   ui: {
@@ -169,6 +187,7 @@ const DocCardListTemplate = {
 };
 
 export const MDXTemplates = [
+  AccordionTemplate,
   AdmonitionTemplate,
   DetailsTemplate,
   CodeBlockTemplate,
