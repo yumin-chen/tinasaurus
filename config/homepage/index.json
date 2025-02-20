@@ -1,7 +1,7 @@
 {
   "label": "Homepage",
-  "title": "Tina + Docusaurus",
-  "description": "Tinasaurus is Tina + Docusaurus, an open-source static site generator that converts Markdown files to a documentation website.",
+  "title": "CMS",
+  "description": "CMS is Tina + Docusaurus, an open-source static site generator that converts Markdown files to a documentation website.",
   "blocks": [
     {
       "document": "docs/intro.mdx",
