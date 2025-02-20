@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact";
 import Layout from "@theme/Layout";
 import { Blocks } from "../components/Blocks";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";

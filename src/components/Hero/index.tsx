@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import styles from "./index.module.css";

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact";
 
 export const HeroBlockTemplate = {
   name: "hero",

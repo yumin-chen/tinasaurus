@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact";
 import styles from "./index.module.css";
 
 export const YouTubeEmbed = ({ data, index }) => {
