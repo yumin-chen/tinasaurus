@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "preact/compat";
 import { slugify } from "../../util";
 
 const AdmonitionTemplate = {
@@ -126,7 +126,7 @@ const TabsTemplate = {
               type: "string",
               ui: {
                 component: ({ input, tinaForm }) => {
-                  React.useEffect(() => {
+                  useEffect(() => {
                     input.onChange(slugify(tinaForm.values.label));
                   }, [JSON.stringify(tinaForm.values)]);
 

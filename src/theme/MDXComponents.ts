@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact";
 import MDXComponents from "@theme-original/MDXComponents";
 import CodeBlock from "@theme-original/CodeBlock";
 import Details from "@theme/Details";

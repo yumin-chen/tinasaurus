@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact";
 import { Features } from "../Features";
 import { Hero } from "../Hero";
 import { YouTubeEmbed } from "../YouTubeEmbed";

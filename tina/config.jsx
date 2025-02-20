@@ -1,4 +1,4 @@
-import React from "react";
+import { useMemo } from "preact/compat";
 import { defineConfig, TextField } from "tinacms";
 import { ReferenceField } from "tinacms";
 import { FeaturesBlockTemplate } from "../src/components/Features/template";
@@ -261,7 +261,7 @@ const CategoryFields = [
     collections: ["doc"],
     ui: {
       component: (props) => {
-        const link = React.useMemo(() => {
+        const link = useMemo(() => {
           let fieldName = props.field.name;
           fieldName =
             fieldName.substring(0, fieldName.lastIndexOf(".")) || fieldName;
@@ -423,7 +423,7 @@ const NavbarItemFields = [
     collections: ["doc"],
     ui: {
       component: (props) => {
-        const link = React.useMemo(() => {
+        const link = useMemo(() => {
           let fieldName = props.field.name;
           fieldName =
             fieldName.substring(0, fieldName.lastIndexOf(".")) || fieldName;
@@ -448,7 +448,7 @@ const NavbarItemFields = [
     collections: ["pages"],
     ui: {
       component: (props) => {
-        const link = React.useMemo(() => {
+        const link = useMemo(() => {
           let fieldName = props.field.name;
           fieldName =
             fieldName.substring(0, fieldName.lastIndexOf(".")) || fieldName;
@@ -472,7 +472,7 @@ const NavbarItemFields = [
     type: "string",
     ui: {
       component: (props) => {
-        const link = React.useMemo(() => {
+        const link = useMemo(() => {
           let fieldName = props.field.name;
           fieldName =
             fieldName.substring(0, fieldName.lastIndexOf(".")) || fieldName;
