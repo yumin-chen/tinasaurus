@@ -17,6 +17,7 @@
     "url": "https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z2d5UEVjqQ7GJDuw7pGPdHvJ2fWZ1/issues"
   },
   "scripts": {
+    "prepare": "panda codegen",
     "docusaurus": "docusaurus",
     "dev": "tinacms dev -c \"docusaurus start\" ",
     "start": "docusaurus start",
@@ -47,6 +48,8 @@
     "@docusaurus/tsconfig": "^3.7.0",
     "@docusaurus/types": "^3.7.0",
     "prettier": "3.5.1",
+    "@pandacss/dev": "^0.53.0",
+    "@shadow-panda/preset": "^0.7.1",
     "typescript": "^5.7.3"
   },
   "browserslist": {

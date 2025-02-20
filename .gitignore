@@ -22,3 +22,7 @@ yarn-error.log*
 
 tina/__generated__
 .env
+
+## Panda
+@chen/styled-system
+@chen/styled-system-studio
