@@ -4,8 +4,9 @@
     "alt": "Tina",
     "src": "/img/tina-icon.svg"
   },
-  "title": "Tinasaurus",
-  "url": "https://tinasaurus.chen.so/",
+  "title": "CMS",
+  "tagline": "Content Management System",
+  "url": "https://cms.chen.so/",
   "navbar": [
     {
       "label": "Docs",
