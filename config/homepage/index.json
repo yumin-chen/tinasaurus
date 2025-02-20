@@ -4,11 +4,6 @@
   "description": "CMS is Tina + Docusaurus, an open-source static site generator that converts Markdown files to a documentation website.",
   "blocks": [
     {
-      "document": "docs/intro.mdx",
-      "documentLabel": "Docusaurus Tutorial - 5min ⏱️",
-      "_template": "hero"
-    },
-    {
       "items": [
         {
           "title": "Easy to Use",
