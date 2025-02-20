@@ -27,7 +27,8 @@
     "title": "^3.5.3"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.7.0"
+    "@docusaurus/module-type-aliases": "3.7.0",
+    "@pandacss/dev": "^0.53.0"
   },
   "browserslist": {
     "production": [
