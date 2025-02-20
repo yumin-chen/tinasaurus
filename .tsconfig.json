@@ -10,6 +10,10 @@
     "strict": true,
     "importHelpers": true,
     "paths": {
+      "@chen/styled-system": ["../../@chen/styled-system"],
+      "@chen/styled-system/css": ["../../@chen/styled-system/css"],
+      "@chen/styled-system/jsx": ["../../@chen/styled-system/jsx"],
+      "@chen/styled-system/recipes": ["../../@chen/styled-system/recipes"]
     }
   }
 }
