@@ -1,0 +1,15 @@
+{
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "lib",
+    "declaration": true,
+    "declarationDir": "lib",
+    "composite": true,
+    "strict": true,
+    "importHelpers": true,
+    "paths": {
+    }
+  }
+}
