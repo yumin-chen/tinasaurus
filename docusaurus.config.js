@@ -1,3 +1,4 @@
+const pandaCss = require("@pandacss/dev/postcss");
 const docusaurusData = require("./config/docusaurus/index.json");
 
 const lightCodeTheme = require("prism-react-renderer").themes.github;
@@ -152,6 +153,19 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  
+    plugins: [
+      function () {
+        return {
+          name: 'docusaurus-plugin',
+          configurePostCss(postcssOptions) {
+            postcssOptions.plugins.push(pandaCss())
+            return postcssOptions
+          },
+        }
+      },
+    ],
 };
 
 module.exports = config;
