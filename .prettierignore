@@ -3,4 +3,5 @@ build
 coverage
 
 pnpm-lock.yaml
+tina-lock.json
 *.mdx
