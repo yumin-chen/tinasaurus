@@ -1,6 +1,12 @@
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/Chen-Software/cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+# Chen's Content Management System (CMS)
 
-## Chen's Content Management System (CMS)
+---
+
+Git-based React-based Content Management System (CMS) with a built-in static site generator using Tina + Docusaurus designed for creating documentation websites effortlessly.
+
+[Live Preview (cms.chen.so)](https://cms.chen.so) | <a href="https://app.netlify.com/start/deploy?repository=https://github.com/Chen-Software/cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+
+## Quick Start
 
 ```
 $ pnpm install && pnpm run dev
