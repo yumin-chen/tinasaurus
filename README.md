@@ -1,6 +1,6 @@
-[![Tinasaurus Demo](https://res.cloudinary.com/forestry-demo/image/upload/v1677522334/tina-io/blog/tinacms-docusaurus-markdown-editing.gif "Tinasaurus Overview Video")](https://www.youtube.com/watch?v=2bHBwM54UB8)
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/Chen-Software/cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
-## Quickstart With Tina
+## Chen's Content Management System (CMS)
 
 ```
 $ pnpm install && pnpm run dev
